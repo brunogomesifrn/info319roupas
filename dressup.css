@@ -1,12 +1,29 @@
 body {
 	background: #87CEFA;
 }
+.logo{
+	background-color: white;
+	border:1px solid black;
+
+}
+
+.nomedosite{
+font-family: 'Courgette', cursive;
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+
+}
+.col-2{
+	background-position: left;
+	margin-top: 15px;
+}
 
 .menu{
 
 	width: 60px;
 	height: 60px;
-	background: black;
+	background-color: black;
 	border-radius: 50%;
 	position: fixed;
 	top: 25px;
@@ -42,3 +59,4 @@ body {
 
 .hamburguer:after{
 	bottom: -10px;
+}
