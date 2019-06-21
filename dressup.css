@@ -65,6 +65,7 @@ margin-top: 15px;
 .hamburguer:after{
 	bottom: -10px;
 }
+<<<<<<< HEAD
 .cadastro{
 	text-align: center;
 }
@@ -72,4 +73,13 @@ margin-top: 15px;
 	font-size:25px;
  margin-top: 100px;
 	text-align: center;
+=======
+
+.col-sm{
+
+	width: 800px;
+	left:250px;
+
+
+>>>>>>> 18351d77a3735862e6533a68a5ba92d971ab7299
 }
