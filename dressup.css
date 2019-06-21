@@ -8,15 +8,20 @@ body {
 }
 
 .nomedosite{
-font-family: 'Courgette', cursive;
+font-family: 'Great Vibes', cursive;
 text-align: center;
-font-size: 30px;
+font-size: 50px;
 font-weight: bold;
+margin-top: 15px;
+
 
 }
 .col-2{
 	background-position: left;
 	margin-top: 15px;
+}
+.col-md-4{
+	font-size:25px;
 }
 
 .menu{
