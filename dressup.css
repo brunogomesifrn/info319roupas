@@ -1,0 +1,94 @@
+body {
+	background: #87CEFA;
+}
+.logo{
+	background-color: white;
+	border: 1px solid black;
+
+}
+
+.nome_do_site{
+font-family: 'Great Vibes', cursive;
+text-align: center;
+font-size: 50px;
+font-weight: bold;
+margin-top: 15px;
+
+
+}
+.col-2{
+	background-position: left;
+	margin-top: 15px;
+}
+.col-md-4{
+	font-size:25px;
+}
+
+.menu{
+
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	border-radius: 50%;
+	position: fixed;
+	top: 25px;
+	left: 25px; 
+}
+
+.hamburguer{
+	position: relative;
+	display: block;
+	background: #fff;
+	width: 30px;
+	height: 2px;
+	top: 29px;
+	left: 15px;
+
+}
+
+.hamburguer:before,
+.hamburguer:after{
+
+	background: #fff;
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+}
+
+.hamburguer:before{
+	top: -10px;
+}
+
+.hamburguer:after{
+	bottom: -10px;
+}
+
+.img{
+	text-align: center;
+}
+.carrinho{
+	text-align: center;
+}
+.reset{
+	border-radius:5px;
+	background-color:red;
+	color:white;
+}
+.img{
+	text-align: center;
+	margin-top: 100px;
+	padding-right: 200px;
+	
+
+
+}
+.descricao{
+
+	text-align: left;
+}
+.comprar{
+	background-color: #A2B5CD;
+}
