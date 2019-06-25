@@ -7,7 +7,7 @@ body {
 }
 .logo{
 	background-color: white;
-	border:1px solid black;
+	border: 1px solid black;
 
 }
 
@@ -90,6 +90,7 @@ input:checked ~ label .hamburguer:before{
 input:checked ~ label .hamburguer:after{
 	transform: rotate(90deg);
 	bottom: 0;
+}
 .img{
 	text-align: center;
 }
@@ -101,4 +102,18 @@ input:checked ~ label .hamburguer:after{
 	background-color:red;
 	color:white;
 }
+.img{
+	text-align: center;
+	margin-top: 100px;
+	padding-right: 200px;
+	
 
+
+}
+.descricao{
+
+	text-align: left;
+}
+.comprar{
+	background-color: #A2B5CD;
+}
