@@ -1,6 +1,7 @@
 
 body {
 	background: #87CEFA;
+	width: 100%;
 }
 
 .logo{
@@ -47,8 +48,19 @@ margin-top: 15px;
 .pesquisa{
 	margin-top: 15px;
   font-style:italic;
+  size:50px
 } 
+
 .rodape{
 background-color: #A2B5CD;
 font-style: italic;
+}
+
+.botao{
+	float:left;
+	background-size: 20px;
+}
+
+.filtro{
+	margin-top: 15px;
 }

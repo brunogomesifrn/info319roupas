@@ -8,6 +8,36 @@
 	<title>Roupa infantil</title>
 	<script src="https://kit.fontawesome.com/4b06caa41b.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+<style type="text/css">
+#busca {
+margin:0 auto;
+padding:0;
+}
+#txtbusca {
+border:0px solid #222;
+background:#EEE;
+width:260px;
+height:35px;
+margin:0 auto;
+padding:5px 0 5px 5px;
+float:left; // posição do campo
+line-height:36px; // altura da linha
+}
+#btnBusca {
+background:#00cccc;
+position:relative;
+border:0px solid #222;
+color:#FFF; 
+margin:0 auto;
+padding:10px;
+border:0 none;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+}
+#btnBusca:hover {
+background:#99cccc; 
+}</style>
 </head>
 <body>
 
@@ -24,10 +54,11 @@
 			<p class="nome_do_site">Dress up</p>
 		</div>
 
-		<div class="col-2" class="col-md-1">
-			<input class="pesquisa" type="text" name="pesquisa" placeholder="Pesquisar..." size="15px"/>
-			<button><i class="fas fa-search"></i></button>
-
+	<div id='busca'>
+			<form action="/search" class="pesquisa" method="get">
+    			<input id="txtbusca" name="q" type="text" value="" placeholder="Digite o que você procura" />
+    			<input id="btnBusca" type="submit" value="Ok"/>
+			</form>
 		</div>
 	</div>	
 </div>
